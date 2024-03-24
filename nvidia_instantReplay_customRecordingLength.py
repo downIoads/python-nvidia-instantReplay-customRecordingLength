@@ -23,9 +23,6 @@ def getCurrentLength():
     if folder: 
         wrg.CloseKey(folder) 
 
-    # printing values 
-    #print("Current NVIDIA InstantReplay Recording Length: " + curRecordingLength + " sec") 
-
     # return currently set recording length in seconds as string
     return curRecordingLength
 
